@@ -13,6 +13,10 @@ public class Aluno {
         this.telefones.add(new Telefone(ddd, numero));
     }
 
+    public void printIdade(){
+        System.out.println(this.getIdade());
+    }
+
     public CPF getCpf() {
         return cpf;
     }
