@@ -17,6 +17,10 @@ public class Aluno {
         System.out.println(this.getIdade());
     }
 
+    public void teste(){
+
+    }
+
     public CPF getCpf() {
         return cpf;
     }
