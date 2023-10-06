@@ -1,5 +1,8 @@
+package br.com.alura.escola.aluno;
+
 import static org.junit.jupiter.api.Assertions.*;
 
+import br.com.alura.escola.aluno.Email;
 import org.junit.jupiter.api.Test;
 
 class EmailTest {

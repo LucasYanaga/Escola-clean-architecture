@@ -10,5 +10,8 @@
         <module name="escola" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="br.com.alura.escola" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
