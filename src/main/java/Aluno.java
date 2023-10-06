@@ -5,6 +5,7 @@ public class Aluno {
     private CPF cpf;
     private Email email;
     private String nome;
+    private int idade;
 
     private List<Telefone> telefones = new ArrayList<Telefone>();
 
