@@ -1,4 +1,4 @@
-package br.com.alura.escola.aluno;
+package br.com.alura.escola.dominio.aluno;
 
 public class Telefone {
     private String ddd;
@@ -19,4 +19,11 @@ public class Telefone {
         this.numero = numero;
     }
 
+    public String getDdd() {
+        return ddd;
+    }
+
+    public String getNumero() {
+        return numero;
+    }
 }
