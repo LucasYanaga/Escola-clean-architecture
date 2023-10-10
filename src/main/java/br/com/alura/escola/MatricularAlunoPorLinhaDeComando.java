@@ -1,11 +1,7 @@
 package br.com.alura.escola;
 
-import br.com.alura.escola.aplicacao.indicacao.MatricularAluno;
-import br.com.alura.escola.aplicacao.indicacao.MatricularAlunoDTO;
-import br.com.alura.escola.dominio.aluno.Aluno;
-import br.com.alura.escola.dominio.aluno.CPF;
-import br.com.alura.escola.dominio.aluno.Email;
-import br.com.alura.escola.dominio.aluno.RepositorioDeAluno;
+import br.com.alura.escola.aplicacao.matricular.MatricularAluno;
+import br.com.alura.escola.aplicacao.matricular.MatricularAlunoDTO;
 import infra.aluno.RepositorioDeAlunosEmMemoria;
 
 public class MatricularAlunoPorLinhaDeComando {
